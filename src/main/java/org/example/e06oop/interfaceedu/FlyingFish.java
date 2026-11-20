@@ -7,7 +7,8 @@ class FlyingFish extends Fish implements Swim, Flight {
 
     @Override
     String residence() {
-        return String.format("%s가 %에 삽니다.",super.name, super.residence);
+        // 수정 전: return String.format("%s가 %에 삽니다.",super.name, super.residence);
+        return String.format("%s가 %s에 삽니다.", super.name, super.residence);
     }
 
     @Override

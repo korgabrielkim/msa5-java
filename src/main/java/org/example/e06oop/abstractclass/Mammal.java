@@ -4,9 +4,9 @@ public abstract class Mammal {
     protected String name;
     protected String residence;
     protected int age;
-    public String breath() {
+    public String breath(){
         return String.format("%s가 숨을 쉽니다.", this.name);
-    }
+     }
 
     // 추상 메소드 : 상속 관계에서 자식 클래스에게 특정 기능을 반드시 구현하도록 강제하는 메소드.
 

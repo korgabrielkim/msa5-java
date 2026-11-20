@@ -23,7 +23,8 @@ public class FlyingFish extends Animal {
        //        // return String.format(① "%s이/가 ② %s에서 삽니다.", ① this.name,② this.residence); -> 순서에 맞춰서.
        // }
 
-       // 오버라이딩(Overriding) : 부모에게서 상속받은 메소드를 자식이 저정의 하여 사용.
+       // 수정 전: 오버라이딩(Overriding) : 부모에게서 상속받은 메소드를 자식이 저정의 하여 사용.
+       // 오버라이딩(Overriding) : 부모에게서 상속받은 메소드를 자식이 재정의하여 사용.
        @Override
        public String living() {
               return "수정했음!";
